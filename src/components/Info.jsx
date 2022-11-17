@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import portrait from '../images/portrait.jpg'
 
 export default function Info() {
     return (
         <div className="container-info">
-            <img src="./images/portrait.jpg"></img>
+            <img src={portrait}></img>
             <h2>Valentin B</h2>
             <h4>Frontend Developer</h4>
             <div className="buttons">
