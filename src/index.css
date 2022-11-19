@@ -23,16 +23,17 @@ h4 {
 
 .container-info, .container-about, .container-interests {
   margin: 0 auto;
-  padding: 0;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #1A1B21;
-  width: 50%;
-  
-  
-  
+  width: 40%;
+}
+
+.container-about, .container-interests {
+  padding: 0 1em;
 }
 
 .container-info h2 {
@@ -40,7 +41,7 @@ h4 {
 }
 
 img {
-  width: 100%;
+  width: 100%
 }
 
 .buttons {
@@ -103,4 +104,37 @@ button {
   text-align: start;
 
   margin-bottom: 0;
+}
+
+
+
+
+.icons {
+  width: 50px;
+  height: 50px;
+  margin: 0 1em;
+}
+
+.container-interests {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  
+}
+
+.interests-box {
+  width: 100%;
+  margin-bottom: 0.8em;
+}
+
+.images {
+  all: initial;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #161619;
+  justify-content: center;
+  padding: 1em;
+  
+  
 }
