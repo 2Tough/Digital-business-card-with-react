@@ -4,13 +4,13 @@
 
 body {
   margin: 0;
+  font-family: 'Blinker', sans-serif;
 }
 
 h2 {
   color: #FFFFFF;
   margin-bottom: 0;
-  
-  
+  font-weight: 400;
 }
 
 h4 {
@@ -90,9 +90,6 @@ button {
   color: #FFFFFF;
   margin-right: auto;
   padding-left: 1em;
-  
-  
-  
 }
 
 
@@ -102,12 +99,8 @@ button {
   margin-right: auto;
   max-width: 90%;
   text-align: start;
-
   margin-bottom: 0;
 }
-
-
-
 
 .icons {
   width: 50px;
@@ -119,7 +112,6 @@ button {
   display: flex;
   flex-direction: column;
   text-align: start;
-  
 }
 
 .interests-box {
@@ -135,6 +127,4 @@ button {
   background-color: #161619;
   justify-content: center;
   padding: 1em;
-  
-  
 }
